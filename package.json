@@ -1,0 +1,18 @@
+{
+  "name": "sccs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-scss-prod": "node-sass ./assets/scss/main.scss ./assets/css/style.min.css --output-style=compressed",
+    "compile-scss-dev": "node-sass ./assets/scss/main.scss ./assets/css/style.css -w"
+  },
+  "keywords": [],
+  "author": "Asli Gadirova",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "node-sass": "^7.0.1"
+  }
+}

@@ -1,0 +1,47 @@
+@import "../pages/mixins";
+.our-team {
+  margin-left: 0; 
+  padding-left: 130px;
+  margin: 75px 0;
+  max-width: 100%;
+  &__container {
+    padding-left: 250px;
+  }
+  .row{
+    width: 100%;
+  }
+  .profile {
+    margin-top: 25px;
+    width: 220px;
+    .img-box {
+      background-image: url(https://www.simbrella.com/site/templates/img/figure_green_bg.png);
+      border-radius: 3px;
+      display: block;
+      position: relative;
+      width: 200px;
+    }
+
+    h3 {
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    p {
+      color: gray;
+    }
+  }
+  h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(44, 44, 136);
+  }
+  @include responsivebig {
+    display: none;
+  }
+}
+.team2 {
+  width: 100%;
+  @include responsivebig {
+  display: none;
+  }
+}
